@@ -11,7 +11,7 @@ set('repository', 'git@github.com:kkbonsu/test_deploy.git');
 host('16.60.128.51')
     ->set('remote_user', 'ubuntu')
     ->set('deploy_path', '/home/ubuntu/test_deploy')
-    ->set('identity_file', '~/.ssh/AYUDA.pem')
+    ->set('identity_file', '/Users/kwamebonsu/.ssh/AYUDA.pem')
     ->set('multiplexing', false)
     ->set('git_tty', false)
     ->set('labels', ['stage' => 'live'])
